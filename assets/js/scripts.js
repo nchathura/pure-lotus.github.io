@@ -4,3 +4,5 @@ $(function() {
     cycle: 'true'
   });
 });
+
+$('.carousel').carousel();
