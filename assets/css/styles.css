@@ -1,5 +1,9 @@
-.card{
-	width: 18rem;
+body {
+	background-color: #e6e2d3;
+}
+
+.card {
+	padding-bottom: 20px;
 }
 
 .card-deck .card {
@@ -13,6 +17,10 @@
 
 .card-deck .card:not(:first-child) {
     margin-left: 15px;
+}
+
+.card-title {
+	padding-top: 15px;
 }
 
 .navbar {
@@ -36,6 +44,7 @@
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+
 }
 
 .carousel-caption h1 {
@@ -46,9 +55,9 @@
 
 .carousel-caption h3 {
 	font-size: 200%;
-	font-weight: 500;
+	font-weight: 500%;
 	text-shadow: 1px 1px 10px #000;
-	padding-bottom: 1rem;
+	padding-bottom: 2rem;
 }
 
 .btn-primary {
@@ -61,12 +70,98 @@
 	border: 1px solid #563d7c;
 }
 
-#cont1 {
-	padding-top: 100px;
+.img-fluid{
+	height: 200px;
+}
+
+#first-cont {
+	padding-bottom: 60px;
+}
+
+#first-cont {
+ height: 100% auto;
+ width: 100% auto;        
+ }
+
+#wrapper {
+	background-image: url("https://cdn.pixabay.com/photo/2016/10/03/17/11/cosmos-flower-1712177_1280.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center center;
+    background-size: 100% auto;
+    width:auto;
+    height:100% auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.navbar-toggler {
+	align-content: right;
+}
+
+.small-logo {
+	width: 15%;
+	height: 15%;
+	padding: 10px;
 }
 
 #logo {
 	width: 20%;
 	height: 20%;
+}
+
+#c1, #c2, #c3, #c4 {
+	text-align: center;
+	background-position: center;
+}
+
+#c1, #c2, #c3, #c4 {
+	
+}
+
+#c1:hover, #c2:hover, #c3:hover, #c4:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#b1, #b2, #b3, #b4 {
+	/*border: 2px solid;*/
+	transition: all 0.3s ease 0s;
+	border: transparent;
+}
+
+#b1:hover, #b2:hover, #b3:hover, #b4:hover {
+	background-color: blue;
+	border: 2px solid;
+	border-radius: 40px blue;
+}
+
+#header-area {
+	text-align: center;
+}
+
+#toggler {
+	align-items: right;
+}
+
+#slides {
+	padding: 0px;
+}
+
+/*Media Queries*/
+@media (max-width: 992px){
+
+}
+
+@media (max-width: 768px){
+	#wrapper {
+		background-image: none;
+	}
+}
+
+@media (max-width: 576px){
+	#wrapper {
+		background-image: none;
+	}	
 }
 
