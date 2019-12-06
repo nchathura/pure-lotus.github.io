@@ -1,5 +1,5 @@
 body {
-	background-color: #e6e2d3;
+	background-color: #eaece5;
 }
 
 .card {
@@ -33,6 +33,10 @@ body {
 
 .nav-link {
 	font-size: 1.1em !important;
+}
+
+.bg-custom {
+	background-color: #eaece5;
 }
 
 .carousel-inner img {
@@ -74,14 +78,24 @@ body {
 	height: 200px;
 }
 
+.navbar-toggler {
+	align-content: right;
+}
+
+.small-logo {
+	width: 15%;
+	height: 15%;
+	padding: 10px;
+}
+
 #first-cont {
 	padding-bottom: 60px;
 }
 
 #first-cont {
- height: 100% auto;
- width: 100% auto;        
- }
+ 	height: 100% auto;
+ 	width: 100% auto;        
+}
 
 #wrapper {
 	background-image: url("https://cdn.pixabay.com/photo/2016/10/03/17/11/cosmos-flower-1712177_1280.jpg");
@@ -94,16 +108,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
-}
-
-.navbar-toggler {
-	align-content: right;
-}
-
-.small-logo {
-	width: 15%;
-	height: 15%;
-	padding: 10px;
 }
 
 #logo {
@@ -125,7 +129,6 @@ body {
 }
 
 #b1, #b2, #b3, #b4 {
-	/*border: 2px solid;*/
 	transition: all 0.3s ease 0s;
 	border: transparent;
 }
@@ -145,7 +148,7 @@ body {
 }
 
 #slides {
-	padding: 0px;
+	padding: 20px;
 }
 
 /*Media Queries*/
