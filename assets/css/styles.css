@@ -148,6 +148,36 @@ body,
 	align-content: right;
 }
 
+.cardcommon {
+	padding-bottom: -20px;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	background-color: #FFEAB6;
+}
+
+.cardcommon:hover {
+	background-color: white;
+	border: 2px solid gold;
+}
+
+.cardcommon a {
+	text-align: right;
+	color: orange;
+	text-decoration: none;
+}
+
+.cardcommon a:hover {
+	text-align: right;
+	color: blue;
+	text-decoration: none;
+}
+
+.cardcommon h4:hover {
+	text-align: center;
+	text-decoration: none;
+}
+
 .small-logo {
 	filter: brightness(0.5) invert(1);
 	width: 10%;
@@ -166,7 +196,7 @@ body,
 }
 
 #wrapper {
-	background-image: url("https://cdn.pixabay.com/photo/2016/10/03/17/11/cosmos-flower-1712177_1280.jpg");
+	background-image: url("https://images.unsplash.com/photo-1461559380858-2dd893d0b0d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position:center center;
@@ -273,6 +303,38 @@ body,
 	-ms-user-select: none;
 }
 
+#desc {
+	text-align: center;
+	width: 100%
+	height:100%;
+}
+
+#desc-dev {
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+}
+
+#pic-div {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/14/03/21/fireworks-1822479_1280.jpg");
+  border-radius: 5px;
+  background-position: center;
+}
+
+#btngo {
+	margin-bottom: 15%;
+}
+
+#imggo {
+	margin-top: 15%;
+}
+
+.container-n {
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
 /*Media Queries*/
 @media (max-width: 992px){
 	.small-logo {
@@ -280,27 +342,28 @@ body,
 	width: 10%;
 	height: 10%;
 	padding: 10px;
+	}
 }
 
 @media (max-width: 768px){
 	#wrapper {
 		background-image: none;
 	}
-}
 
 	.small-logo {
 	filter: brightness(0.5) invert(1);
 	width: 20%;
 	height: 20%;
 	padding: 10px;
-}
+	}
 
-html, 
-body, 
-.carousel, 
-.carousel-inner, 
-.carousel-inner .carousel-item {
+	html, 
+	body, 
+	.carousel, 
+	.carousel-inner, 
+	.carousel-inner .carousel-item {
     height: 500px;
+	}
 }
 
 @media (max-width: 576px){
@@ -321,5 +384,5 @@ body,
 	.carousel-inner, 
 	.carousel-inner .carousel-item {
     height: 250px;
-}	
+	}
 }
