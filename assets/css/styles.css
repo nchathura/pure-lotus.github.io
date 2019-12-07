@@ -106,7 +106,7 @@ body,
 .carousel-fade .carousel-inner .carousel-item,
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
-  opacity: 0;
+  opacity: 0.5;
 }
 .carousel-fade .carousel-inner .active,
 .carousel-fade .carousel-inner .next.left,
@@ -245,18 +245,15 @@ body,
 #div-two-sub .btn-primary {
 	background-color: white;
 	color: black;
-	border: 1px solid #563d7c;
-	transition: all 0.3s ease 0s;
-	border: transparent;
+	border-radius: 5px;
+	transition: all 0.3s ease 0s;	
 }
 
 #div-two-sub .btn-primary:hover {
 	background-color: blue;
 	color: white;
 	border: 1px solid #563d7c;
-	background-color: blue;
-	border: 2px solid;
-	border-radius: 40px blue;
+	border-color: transparent;
 }
 
 #div-two {
@@ -298,6 +295,14 @@ body,
 	padding: 10px;
 }
 
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .carousel-item {
+    height: 500px;
+}
+
 @media (max-width: 576px){
 	#wrapper {
 		background-image: none;
@@ -308,5 +313,13 @@ body,
 	width: 20%;
 	height: 20%;
 	padding: 10px;
-	}	
+	}
+
+	html, 
+	body, 
+	.carousel, 
+	.carousel-inner, 
+	.carousel-inner .carousel-item {
+    height: 250px;
+}	
 }
