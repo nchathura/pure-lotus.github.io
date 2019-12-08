@@ -132,6 +132,7 @@ body,
 .btn-primary:hover {
 	background-color: #563d7c;
 	border: 1px solid #563d7c;
+	box-shadow: 5px 10px 18px #888888;
 }
 
 .img-fluid{
@@ -191,6 +192,77 @@ body,
 	-ms-user-select: none;
 }
 
+.emoji::after {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.hearts::after {
+    content: '💗';
+    animation-name: hearts;
+    animation-duration: 3s;
+}
+
+.container-d {
+	padding:50px;
+}
+
+.row-d {
+	text-align: center;
+	margin: 10px;
+}
+
+.home-newsletter {
+	padding: 100px 0;
+	background: linear-gradient(to bottom, #FEAA61 50%, #FE8745 100%);
+	border-radius: 5px;
+}
+
+.home-newsletter .single {
+	max-width: 650px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	z-index: 2; 
+}
+
+.home-newsletter .single h2 {
+	font-size: 22px;
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 40px; 
+}
+
+.home-newsletter .single .form-control {
+	height: 50px;
+	background: rgba(255, 255, 255, 0.6);
+	border-color: transparent;
+	border-radius: 20px 0 0 20px; 
+}
+
+.home-newsletter .single .form-control:focus {
+	box-shadow: none;
+	border-color: #243c4f; 
+}
+
+.home-newsletter .single .btn {
+	min-height: 50px; 
+	border-radius: 0 20px 20px 0;
+	background: white;
+	color: black;
+}
+
+#sub:hover {
+	background: #FE8745;
+	box-shadow: 5px 10px 18px #888888; 
+}
+
+#imgdon {
+	padding: 30px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
 #first-cont {
 	padding-bottom: 60px;
 }
@@ -237,6 +309,7 @@ body,
 	background-color: blue;
 	border: 2px solid;
 	border-radius: 40px blue;
+	box-shadow: 5px 10px 18px #888888;
 }
 
 #header-area {
@@ -284,6 +357,7 @@ body,
 	color: white;
 	border: 1px solid #563d7c;
 	border-color: transparent;
+	box-shadow: 5px 10px 18px #888888;
 }
 
 #div-two {
@@ -321,12 +395,29 @@ body,
   background-position: center;
 }
 
+.row-d .small-logo {
+	padding:0%; 
+}
+
 #btngo {
 	margin-bottom: 15%;
 }
 
 #imggo {
 	margin-top: 15%;
+}
+
+#btndnt {
+	transition: all 0.3s ease 0s;
+	border: transparent;
+	margin-bottom: 100px;
+}
+
+#btndnt:hover {
+	background-color: blue;
+	border: 2px solid;
+	border-radius: 40px blue;
+	box-shadow: 5px 10px 18px #888888;
 }
 
 .container-n {
@@ -385,4 +476,26 @@ body,
 	.carousel-inner .carousel-item {
     height: 250px;
 	}
+}
+
+@keyframes hearts {
+    16.666% {
+        content: '🧡';
+    }
+
+    33.333% {
+        content: '💛';
+    }
+
+    50% {
+        content: '💚';
+    }
+
+    66.666% {
+        content: '💙';
+    }
+
+    83.333% {
+        content: '💜';
+    }
 }
