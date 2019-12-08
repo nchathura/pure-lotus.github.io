@@ -9,6 +9,11 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kalam|Play&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 	<link rel="shortcut icon" type="image/png" href="img/fav.png"/>
 	<link rel="shortcut icon" type="image/png" href="img/fav.png"/>
@@ -16,21 +21,22 @@
 </head>
 
 <body>
+	
 	<!-- Navigations -->
 
 	<nav class="navbar navbar-expand-md navbar-light bg-custom sticky-top">
 		<div class="container-fluid">
-			<a href="navbar-brand" href="index.html"><img src="img/logo.png" id="logo"></a>
+			<a href="navbar-brand" href="index.html"><img src="img/logon.png" id="logo"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a class="nav-link" href="#slides">Home</a> </li>
-					<li class="nav-item"><a class="nav-link" href="#first-cont">About</a> </li>
-					<li class="nav-item"><a class="nav-link" href="#desc-dev">Projects</a> </li>
-					<li class="nav-item"><a class="nav-link" href="#teamt">Team</a> </li>
-					<li class="nav-item"><a class="nav-link" href="donatet">Donate</a> </li>
+				<ul class="navbar-nav ml-auto" id="navg">
+					<li class="nav-item"><a class="nav-link underline" href="#slides">Home</a> </li>
+					<li class="nav-item"><a class="nav-link underline" href="#first-cont">About</a> </li>
+					<li class="nav-item"><a class="nav-link underline" href="#desc-dev">Projects</a> </li>
+					<li class="nav-item"><a class="nav-link underline" href="#teamt">Team</a> </li>
+					<li class="nav-item"><a class="nav-link underline" href="#donatet">Donate</a> </li>
 				</ul>
 			</div>
 		</div>
@@ -137,12 +143,12 @@
                     <h4 class="card-title">Lorem Ipsum</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     <a href="#" type="button" class="btn btn-primary" id="b4"> Explorer</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		</div>
 
 	<!-- Two Column Sectin -->
 
@@ -179,7 +185,7 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 			<div class="col-xl-4 col-lg-6 col-md-12 py-2 card cardcommon" >
-				<i class="fas fa-hand-holding-heart"></span></i>
+				<i class="fas fa-hand-holding-heart"></i>
 				<h4>Onsectetur adipisicing </h4>
 				<p>Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -187,6 +193,7 @@
 				<a href="#" type="btn btn-outline-light">Read more</a>
 			</div>
 			<div class="col-xl-4 col-lg-6 col-md-12 py-2 card cardcommon">
+				<i class="fas fa-handshake"></i>
 				<h4>Elit, sed do eiusmod</h4>
 				<p>Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -194,6 +201,7 @@
 				<a href="#" type="btn btn-outline-light">Read more</a>
 			</div>
 			<div class="col-xl-4 col-lg-6 col-md-12 py-2 card cardcommon">
+				<i class="fas fa-gift"></i>
 				<h4>Tempor incididunt </h4>
 				<p>Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -202,6 +210,7 @@
 			</div>
 
 			<div class="col-xl-4 col-lg-6 col-md-12 py-2 card cardcommon">
+				<i class="fas fa-seedling"></i>
 				<h4>Duis aute irure</h4>
 				<p>Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -209,6 +218,7 @@
 				<a href="#" type="btn btn-outline-light">Read more</a>
 			</div>
 			<div class="col-xl-4 col-lg-6 col-md-12 py-2 card cardcommon">
+				<i class="fas fa-donate"></i>
 				<h4>Excepteur sint </h4>
 				<p>Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -216,6 +226,7 @@
 				<a href="#" type="btn btn-outline-light">Read more</a>
 			</div>
 			<div class="col-xl-4 col-lg-6 col-md-12 py-2 card cardcommon">
+				<i class="fas fa-globe"></i>
 				<h4>Dolor in reprehenderit</h4>
 				<p>Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -242,6 +253,7 @@
 		</div>
 	</div>
 <hr>
+
 	<!-- Donations section -->
 
 	<div class="container-d" id="donatet">
@@ -251,6 +263,7 @@
 			<br>
 			<div>
 					<img src="img/img12.png" id="img3d">
+		<div>
 			</div>
 			<p><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -259,13 +272,16 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br></p>
 			<br>
+			<hr>
 			<div>
 			<div class="progress">
 	  		<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
 			</div><br>
 			</div>
 		<p>Donations on this project 75% <span class="emoji hearts" role="img" aria-label="hearts"></span></p>
+		</div>
 		<a href="#" type="button" class="btn btn-primary" id="btndnt">Donate Now</a>
+		<hr>
 	</div>
 
 	<!-- Newsletter -->
@@ -289,9 +305,57 @@
 	</section>
 
 	<!-- Footer -->
+	
+<div class="container"></div>
+    <footer id="footer">
+      <!-- Footer main -->
+      <section class="ft-main">
+        <div class="ft-main-item">
+          <h2 class="ft-title">Office Hours</h2>
+          <ul>
+            <li><p>8 am - 5.30 pm</p></li>
+            <li><p>Monday to Friday</p></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <ul>
+            <li><img src="img/logo.png" id="logo-footer"></li>
+            <li><h2 id="logo-header">Pure Lotus</h2></li>
+            <li><p>Buddhist Temple</p></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Contact Us</h2>
+          <ul>
+            <li><p>3234  Ashcraft Court</p></li>
+            <li><p>Tel: (1) 619 393 6982</p></li>
+          </ul>
+        </div>
+      </section>
+     
+      <!-- Footer social -->
+      <section class="ft-social">
+        <ul class="ft-social-list">
+          <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://1kreation.com" target="_blank"><i class="fab fa-angellist" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/nchathura/pure-lotus.github.io" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+        </ul>
+      </section>
+     
+      <!-- Footer legal -->
+      <section class="ft-legal">
+        <ul class="ft-legal-list">
+          <li>PureLotus &copy; 2019 All Rights Reserved</li>
+          <li><a href="https://1kreation.com" style="color: orange"></a></li>
+          <li>Made with <span class="emoji hearts" role="img" aria-label="hearts"></span> in Sri Lanka</li>
+        </ul>
+      </section>
+    </footer>
+    
+    <div class="se-pre-con"></div>
 
-	
-	
 <!-- Javascripts -->
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
